@@ -198,7 +198,7 @@ support_rank <- length(lower_than_mean_rules)
 support_rank
 ```
 ```{r}
-paste("On average, the Cream Toaster has the", support_rank, "largest support of all the", length(rules), "rules")
+paste("On average, the Cream Toaster has the", support_rank, "largest support of all the", length(rules), "rules.")
 ```
 
 ```{r}
@@ -209,7 +209,7 @@ confidence_rank <- length(lower_than_mean_rules_confidence)
 confidence_rank
 ```
 ```{r}
-paste("On average, the Cream Toaster has the", confidence_rank, "largest confidence of all the", length(rules), "rules")
+paste("On average, the Cream Toaster has the", confidence_rank, "largest confidence of all the", length(rules), "rules.")
 ```
 
 ```{r}
